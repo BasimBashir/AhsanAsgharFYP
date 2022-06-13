@@ -1,0 +1,6 @@
+[
+	{"Price": 100, "Rating": 1.9, "Reviews": 10},
+	{"Price": 200, "Rating": 2.9, "Reviews": 100},
+	{"Price": 300, "Rating": 3.9, "Reviews": 200},
+	{"Price": 400, "Rating": 4.9, "Reviews": 300}
+]
