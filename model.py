@@ -14,10 +14,10 @@ threshold = 3
 dt = data[(z < 3).all(axis=1)]
 
 # Splitting Training and Test Set
-# Since we have a very small dataset, we will train our model with all availabe data.
+# Since we have a very small dataset, we will train our model with all available data.
 
-# Creating var's
-X = dt.iloc[:, :3].values
+# Creating vars
+X = dt.iloc[:, :2].values
 y = dt.iloc[:, -1].values
 
 # Scaling the Data
@@ -34,5 +34,4 @@ pickle.dump(d_tree, open('model.pkl', 'wb'))
 
 # Loading model to compare the results
 model = pickle.load(open('model.pkl', 'rb'))
-print(model.predict([[2, 9, 6]]))
-
+print(model.predict([[2, 9]]))

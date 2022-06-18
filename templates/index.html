@@ -19,7 +19,6 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"enctype="multipart/form-data"method="post">
     	<input type="text" name="Price" placeholder="Price" required="required" />
-        <input type="text" name="Rating" placeholder="Rating" required="required" />
 		<input type="text" name="Reviews" placeholder="Reviews" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
