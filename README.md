@@ -26,15 +26,16 @@ By default, flask will run on port 5000.
 3. Navigate to URL http://localhost:5000
 
 You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
+![alt text](https://ahsanasgharfyp.herokuapp.com/)
 
 Enter valid numerical values in all 3 input boxes and hit Predict.
 
 If everything goes well, you should  be able to see the predicted score value on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
+![alt text](https://ahsanasgharfyp.herokuapp.com/predict)
 
 4. You can also send direct POST requests to FLask API using Python's inbuilt request module
 Run the below command to send the request with some pre-populated values -
 ```
-python request.py
+address of the app </calculate>
+For example, localhost:5000/calculate
 ```
